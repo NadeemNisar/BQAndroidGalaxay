@@ -17,7 +17,7 @@ public class detailActivity extends Activity {
 	
    clsActivity objActivity=null;
    String jsonReturned="";
-  
+   ///Detail Actvity is meant for github testing 
    @Override
    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
