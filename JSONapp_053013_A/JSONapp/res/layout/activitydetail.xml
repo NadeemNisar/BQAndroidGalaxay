@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"    android:layout_height="fill_parent">
+    
+    <RelativeLayout
+        android:id="@+id/relLabels"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true">
+        
+        <TextView
+            android:id="@+id/lblActivityID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="Activity ID:" />
+        
+         <EditText
+	        android:id="@+id/txtActivityID"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/lblActivityID"
+	        android:visibility="gone"
+	        >
+        </EditText>
+        
+         <TextView  
+               android:id="@+id/lblActivityCode"
+           	   android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_below="@+id/txtActivityID"
+               android:text="Code:"/>
+         <EditText  
+            android:id="@+id/txtActivityCode"
+        	android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lblActivityCode"
+         />
+         
+         
+          <TextView  
+               android:id="@+id/lblActivitySub"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_below="@+id/txtActivityCode"
+               android:text="Sub:"/>
+          <EditText  
+            android:id="@+id/txtActivitySub"
+           	android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lblActivitySub"
+           />
+          
+          
+           <TextView  
+               android:id="@+id/lblActivityDesc"
+        	   android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_below="@+id/txtActivitySub"
+               android:text="Description:"/>
+           <EditText  
+            android:id="@+id/txtActivityDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lblActivityDesc"
+            />   
+        
+           <CheckBox  
+               android:id="@+id/chkActivityBillable"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentLeft="true"
+               android:text="Activity Billable"
+               android:layout_below="@+id/txtActivityDesc">
+           </CheckBox>
+        
+          <Button 
+              android:id="@+id/btnSave"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Save"
+              android:layout_below="@+id/chkActivityBillable">
+          </Button>
+           
+           
+           
+    </RelativeLayout>
+
+    
+</RelativeLayout>

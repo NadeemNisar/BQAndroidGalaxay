@@ -1,0 +1,103 @@
+
+   <selector xmlns:android="http://schemas.android.com/apk/res/android"> 
+    <item android:state_checked="true" android:state_window_focused="false">
+            <shape android:thickness="0.5dip">  
+   		       <corners
+     					android:bottomRightRadius="1dp"
+     					android:bottomLeftRadius="1dp"
+  						android:topLeftRadius="1dp"
+  						android:topRightRadius="1dp"/> 
+			    <stroke android:width="1dp" android:color="#D67700" />
+			    <solid  android:color="#D67700"></solid>
+			    <padding android:left="2dip"  android:right="3dip" android:top="5dip" android:bottom="7dip"/> 
+		    </shape>
+    </item>  
+    <item android:state_checked="false" android:state_window_focused="false">
+             <shape android:thickness="0.5dip">  
+   		       <corners
+     					android:bottomRightRadius="1dp"
+     					android:bottomLeftRadius="1dp"
+  						android:topLeftRadius="1dp"
+  						android:topRightRadius="1dp"/> 
+			    <stroke android:width="1dp" android:color="#FE9E09" />
+			    <solid  android:color="#FE9E09"></solid>
+			    <padding android:left="2dip"  android:right="3dip" android:top="5dip" android:bottom="7dip"/> 
+		    </shape>
+    </item>
+    <item android:state_checked="true" android:state_pressed="true">
+             <shape android:thickness="0.5dip">  
+   		       <corners
+     					android:bottomRightRadius="1dp"
+     					android:bottomLeftRadius="1dp"
+  						android:topLeftRadius="1dp"
+  						android:topRightRadius="1dp"/> 
+			    <stroke android:width="1dp" android:color="#D67700" />
+			    <solid  android:color="#D67700"></solid>
+			    <padding android:left="2dip"  android:right="3dip" android:top="5dip" android:bottom="7dip"/> 
+		    </shape>    
+    </item>
+    <item android:state_checked="false" android:state_pressed="true">
+             <shape android:thickness="0.5dip">  
+   		       <corners
+     					android:bottomRightRadius="1dp"
+     					android:bottomLeftRadius="1dp"
+  						android:topLeftRadius="1dp"
+  						android:topRightRadius="1dp"/> 
+			    <stroke android:width="1dp" android:color="#4A79C6" />
+			    <solid  android:color="#4A79C6"></solid>
+			    <padding android:left="2dip"  android:right="3dip" android:top="5dip" android:bottom="7dip"/> 
+		    </shape>    
+    </item>
+    <item android:state_checked="true" android:state_focused="true">
+             <shape android:thickness="0.5dip">  
+   		       <corners
+     					android:bottomRightRadius="1dp"
+     					android:bottomLeftRadius="1dp"
+  						android:topLeftRadius="1dp"
+  						android:topRightRadius="1dp"/> 
+			    <stroke android:width="1dp" android:color="#D67700" />
+			    <solid  android:color="#D67700"></solid>
+			    <padding android:left="2dip"  android:right="3dip" android:top="5dip" android:bottom="7dip"/> 
+		    </shape>    
+    </item>
+    <item android:state_checked="false" android:state_focused="true">
+             <shape android:thickness="0.5dip">  
+   		       <corners
+     					android:bottomRightRadius="1dp"
+     					android:bottomLeftRadius="1dp"
+  						android:topLeftRadius="1dp"
+  						android:topRightRadius="1dp"/> 
+			    <stroke android:width="1dp" android:color="#4A79C6" />
+			    <solid  android:color="#4A79C6"></solid>
+			    <padding android:left="2dip"  android:right="3dip" android:top="5dip" android:bottom="7dip"/> 
+		    </shape>    
+    </item>
+    <item android:state_checked="false" >
+             <shape android:thickness="0.5dip">  
+   		       <corners
+     					android:bottomRightRadius="1dp"
+     					android:bottomLeftRadius="1dp"
+  						android:topLeftRadius="1dp"
+  						android:topRightRadius="1dp"/> 
+			    <stroke android:width="1dp" android:color="#FE9E09" />
+				<solid  android:color="#FE9E09"></solid>
+			    <padding android:left="2dip"  android:right="3dip" android:top="5dip" android:bottom="7dip"/> 
+		    </shape>    
+    </item>
+    <item android:state_checked="true" >
+             <shape android:thickness="0.5dip">  
+   		       <corners
+     					android:bottomRightRadius="1dp"
+     					android:bottomLeftRadius="1dp"
+  						android:topLeftRadius="1dp"
+  						android:topRightRadius="1dp"/> 
+			    <stroke android:width="1dp" android:color="#D67700" />
+			    <solid  android:color="#D67700"></solid>
+			    <padding android:left="2dip"  android:right="3dip" android:top="5dip" android:bottom="7dip"/> 
+		    </shape>    
+    </item>
+  </selector>
+  
+  
+  
+  
